@@ -15,8 +15,7 @@ const Main = () => {
             <div className='px-24 wrapper  '>
                   <div>
                         <Header></Header>
-
-                        {/* <Outlet></Outlet> */}
+                        
                         <Home></Home>
                         <Resume></Resume>
                         <About></About>

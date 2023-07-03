@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div id='about'>
 
-      <div className='text boat text-green-400 mx-24 my-24'>
+      <div className='text boat text-green-400 mx-24 my-24 text-justify'>
         <div className='boatabout my-4'>
           Hi there! I am John Doe, a passionate and aspiring web developer. I love turning ideas into beautiful and functional websites that provide great user experiences
 

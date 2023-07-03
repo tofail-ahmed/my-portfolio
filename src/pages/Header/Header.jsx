@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-// import ActiveLink from '../../component/ActiveLink/ActiveLink';
+import './Header.css'
 import logo from '../../assets/bgless-shadow.png';
-import HoverUnderlineText from '../../component/HoverUnderlineText/HoverUnderlineText';
+import { Link } from 'react-scroll';
 
 const Header = () => {
       useEffect(() => {
@@ -14,8 +14,8 @@ const Header = () => {
       }, []);
 
       return (
-            <div className='text-green-300 mb-24'>
-                  <div className='navbar bg-green-800 -mx-24  z-40  fixed top-0'>
+            <div className='text-green-300 mb-24 '>
+                  <div className='navbar  bg-green-800 -mx-24  z-40  fixed top-0'>
                         <div className='navbar-start'>
                               <div className='dropdown'>
                                     <label tabIndex={0} className='btn btn-ghost lg:hidden text-green-400'>
@@ -34,49 +34,173 @@ const Header = () => {
                                                 />
                                           </svg>
                                     </label>
-                                    <ul className='menu menu-sm dropdown-content mt-3  p-2 shadow bg-slate-500 z-10 rounded-box w-52'>
-                                          <li  data-aos='fade-up-left' data-aos-delay='700' data-aos-duration='1500'>
-                                                <a href="#home"> < ><HoverUnderlineText text={"Home"}></HoverUnderlineText></></a>
-                                          </li>
-                                          <li data-aos='fade-up-right' data-aos-delay='800' data-aos-duration='1500'>
-                                                <a href="#about"> <>About</></a>
-                                          </li>
-                                          <li data-aos='fade-down-left' data-aos-delay='900' data-aos-duration='1500'>
-                                                <a href="#skills">< >Skills</></a>
-                                          </li>
-                                          <li data-aos='fade-down-right' data-aos-delay='1000' data-aos-duration='1500'>
-                                                <a href="#projects">< >Projects</></a>
-                                          </li>
-                                          <li data-aos='flip-left' data-aos-delay='1100' data-aos-duration='1500'>
-                                                <a href="#resume">  <>Resume</></a>
+                                    <ul className='menu menu-sm dropdown-content mt-3  p-2 shadow bg-slate-500 z-10 rounded-box w-52 absolute'>
+                                          <li>
+                                                <Link
+
+                                                      activeClass="active"
+                                                      to="home"
+                                                      spy={true}
+                                                      smooth={true}
+                                                      offset={-200}
+                                                      duration={500}
+                                                >
+
+                                                      Home
+
+                                                </Link>
                                           </li>
                                           <li data-aos='flip-right' data-aos-delay='1200' data-aos-duration='1500'>
-                                                <a href="#contacts">Contacts</a>
+                                                <Link
+                                                      activeClass="active"
+                                                      to="resume"
+                                                      spy={true}
+                                                      smooth={true}
+                                                      offset={-200}
+                                                      duration={500}
+
+                                                >
+                                                      Resume
+                                                </Link>
+                                          </li>
+                                          <li data-aos='flip-right' data-aos-delay='1200' data-aos-duration='1500'>
+                                                <Link
+                                                      activeClass="active"
+                                                      to="about"
+                                                      spy={true}
+                                                      smooth={true}
+                                                      offset={-200}
+                                                      duration={500}
+                                                >
+                                                      About
+                                                </Link>
+                                          </li>
+                                          <li data-aos='flip-right' data-aos-delay='1200' data-aos-duration='1500'>
+                                                <Link
+                                                      activeClass="active"
+                                                      to="skills"
+                                                      spy={true}
+                                                      smooth={true}
+                                                      offset={-200}
+                                                      duration={500}
+                                                >
+                                                      Skills
+                                                </Link>
+                                          </li>
+                                          <li data-aos='flip-right' data-aos-delay='1200' data-aos-duration='1500'>
+                                                <Link
+                                                      activeClass="active"
+                                                      to="projects"
+                                                      spy={true}
+                                                      smooth={true}
+                                                      offset={-200}
+                                                      duration={500}
+                                                >
+                                                      Projects
+                                                </Link>
+                                          </li>
+
+                                          <li data-aos='flip-right' data-aos-delay='1200' data-aos-duration='1500'>
+                                                <Link
+                                                      activeClass="active"
+                                                      to="contacts"
+                                                      spy={true}
+                                                      smooth={true}
+                                                      offset={-100}
+                                                      duration={500}
+                                                >
+                                                      Contacts
+                                                </Link>
                                           </li>
                                     </ul>
                               </div>
                               <img className='w-[200px] boat' src={logo} alt='' data-aos='zoom-in-right' data-aos-duration='1500' />
                         </div>
                         <div className='navbar-center'>
-                              <ul className='menu menu-horizontal px-1'>
-                                    <li  data-aos='fade-up-left' data-aos-delay='700' data-aos-duration='1500'>
-                                          <a href="#home"> < ><HoverUnderlineText text={"Home"}></HoverUnderlineText></></a>
-                                    </li>
-                                    <li data-aos='fade-up-right' data-aos-delay='800' data-aos-duration='1500'>
-                                          <a href="#skills"> < ><HoverUnderlineText text={"Skills"}></HoverUnderlineText></></a>
-                                    </li>
-                                    <li data-aos='fade-down-left' data-aos-delay='900' data-aos-duration='1500'>
-                                          <a href="#resume"> < ><HoverUnderlineText text={"Resume"}></HoverUnderlineText></></a>
-                                    </li>
-                                    <li data-aos='fade-down-right' data-aos-delay='1000' data-aos-duration='1500'>
-                                          <a href="#projects"> < ><HoverUnderlineText text={"Projects"}></HoverUnderlineText></></a>
-                                    </li>
-                                    <li data-aos='flip-left' data-aos-delay='1100' data-aos-duration='1500'>
-                                          <a href="#contacts"> < ><HoverUnderlineText text={"Contacts"}></HoverUnderlineText></></a>
+                              <ul className='menu menu-horizontal px-1 absolute '>
+
+                                    <li>
+                                          <Link
+
+                                                activeClass="active"
+                                                to="home"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={-200}
+                                                duration={500}
+                                          >
+
+                                                Home
+
+                                          </Link>
                                     </li>
                                     <li data-aos='flip-right' data-aos-delay='1200' data-aos-duration='1500'>
-                                          <a href="#about"> < ><HoverUnderlineText text={"About"}></HoverUnderlineText></></a>
+                                          <Link
+                                                activeClass="active"
+                                                to="resume"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={-200}
+                                                duration={500}
+
+                                          >
+                                                Resume
+                                          </Link>
                                     </li>
+                                    <li data-aos='flip-right' data-aos-delay='1200' data-aos-duration='1500'>
+                                          <Link
+                                                activeClass="active"
+                                                to="about"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={-200}
+                                                duration={500}
+                                          >
+                                                About
+                                          </Link>
+                                    </li>
+                                    <li data-aos='flip-right' data-aos-delay='1200' data-aos-duration='1500'>
+                                          <Link
+                                                activeClass="active"
+                                                to="skills"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={-200}
+                                                duration={500}
+                                          >
+                                                Skills
+                                          </Link>
+                                    </li>
+                                    <li data-aos='flip-right' data-aos-delay='1200' data-aos-duration='1500'>
+                                          <Link
+                                                activeClass="active"
+                                                to="projects"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={-200}
+                                                duration={500}
+                                          >
+                                                Projects
+                                          </Link>
+                                    </li>
+
+                                    <li data-aos='flip-right' data-aos-delay='1200' data-aos-duration='1500'>
+                                          <Link
+                                                activeClass="active"
+                                                to="contacts"
+                                                spy={true}
+                                                smooth={true}
+                                                offset={-100}
+                                                duration={500}
+                                          >
+                                                Contacts
+                                          </Link>
+                                    </li>
+
+
+
+
+
                               </ul>
                         </div>
 

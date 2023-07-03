@@ -17,21 +17,16 @@ const Home = () => {
 
 
       return (
-            <div id='home' className='my-36 mt-42 boat' style={{ zIndex: 10 }}>
-                  <div className="grid md:grid-cols-2">
+            <div id='home' className='my-36 ' style={{ zIndex: 10 }}>
+                  <div className="grid md:grid-cols-2 boat">
                         <div className='flex  items-center'>
                               <div className='text-6xl text-green-400 flex flex-col justify-start me-8 my-12 '>
 
 
 
-                                    <div ><Link className='' to="https://www.github.com"><AiOutlineGithub className=''></AiOutlineGithub></Link> </div>
-
-
-
-                                    <div className=''> <AiOutlineMail></AiOutlineMail></div>
-
-
-                                    <div className=''> <AiFillLinkedin></AiFillLinkedin></div>
+                                    <div className=''><Link to="https://github.com/tofail-ahmed"><AiOutlineGithub></AiOutlineGithub></Link> </div>
+                                    <div className=''> <Link to={"https://www.atofail50@gmail.com"}><AiOutlineMail></AiOutlineMail></Link></div>
+                                    <div className=''><Link to={"https://www.linkedin.com/in/tofail-ahmed-130993192/"}> <AiFillLinkedin></AiFillLinkedin></Link></div>
                                     
                               </div>
                               <Test></Test>

@@ -1,0 +1,20 @@
+/* CSS for the active link */
+.active {
+      height: 60px;
+      width: 60px;
+     
+      color: rgb(117, 241, 9) !important;
+      /* Customize the active link color */
+      font-weight: bold !important;
+      /* Customize the active link font weight */
+      background-color: transparent !important;
+      border-top: 10px solid rgb(28, 248, 4) !important;
+      border-bottom: 10px solid rgb(54, 255, 4) !important;
+      border-radius: 70% !important;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important; 
+      position: relative !important;
+
+      top: 20px;
+}

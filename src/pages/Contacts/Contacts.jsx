@@ -34,15 +34,15 @@ const Contacts = () => {
       };
 
       return (
-            <div className='my-24'>
+            <div className='py-24' id='contacts'>
 
                   <h1 className=' glow-text section-name text-center'>Drop Us a Line</h1>
-                  <div id='contacts' className='my-24 md:grid grid-cols-2'>
+                  <div className='my-24 md:grid grid-cols-2'>
                         <div className='text-6xl text-green-400 flex flex-col items-center justify-center align-middle my-24 boat'>
                               <div className="flex justify-center items-center -mt-12 ">
-                                    <div className=''><Link to="https://www.github.com"><AiOutlineGithub></AiOutlineGithub></Link> </div>
-                                    <div className=''> <AiOutlineMail></AiOutlineMail></div>
-                                    <div className=''> <AiFillLinkedin></AiFillLinkedin></div>
+                                    <div className=''><Link to="https://github.com/tofail-ahmed"><AiOutlineGithub></AiOutlineGithub></Link> </div>
+                                    <div className=''> <Link to={"https://www.atofail50@gmail.com"}><AiOutlineMail></AiOutlineMail></Link></div>
+                                    <div className=''><Link to={"https://www.linkedin.com/in/tofail-ahmed-130993192/"}> <AiFillLinkedin></AiFillLinkedin></Link></div>
                               </div>
                               <div className='flex items-center '>
                                     <div className='text-xl text-green-600 me-4'>
@@ -64,7 +64,7 @@ const Contacts = () => {
 
                               <textarea data-aos='fade-left' data-aos-delay='1400' data-aos-once="false" data-aos-duration='1000' className='p-2 rounded-xl bg-green-300 text-green-900 font-bold text-xl' name="message" />
 
-                              <input data-aos='fade-right' data-aos-delay='1500' data-aos-once="false" data-aos-duration='900' className='btn btn-outline text-green-200 w-[120px] my-8' type="submit" value="Send Message" />
+                              <input data-aos='fade-right' data-aos-delay='1500' data-aos-once="false" data-aos-duration='900' className='btn btn-outline text-green-200 bg-green-800 w-[120px] my-8' type="submit" value="Send Message" />
                         </form>
                   </div>
             </div>
