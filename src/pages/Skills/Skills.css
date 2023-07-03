@@ -1,0 +1,102 @@
+.glow-effect {
+      position: relative;
+      z-index: 1;
+}
+
+.glow-effect::after {
+      content: '';
+      position: absolute;
+      top: -10px;
+      left: -10px;
+      right: -10px;
+      bottom: -10px;
+      border-radius: 50%;
+      background-color: rgba(34, 128, 157, 0.5);
+      /* Adjust the color and opacity as needed */
+      filter: blur(0);
+      /* Adjust the initial blur radius as needed */
+      z-index: -1;
+      opacity: 0;
+      transition: opacity 0.3s ease-in, filter 0.3s ease-in;
+}
+
+.glow-effect:hover::after {
+      filter: blur(20px);
+      /* Adjust the final blur radius as needed */
+      opacity: 1;
+      animation: none;
+}
+
+
+.progress-bar {
+      position: absolute;
+      bottom: 0;
+      left: 25%;
+      width: 50%;
+      height: 10px;
+      /* Adjust the height of the progress bar as needed */
+      background-color: rgba(34, 128, 157, 0.5);
+      border-radius: 20px;
+      /* Adjust the color and opacity as needed */
+      z-index: 1;
+}
+
+.progress {
+      height: 100%;
+      background-color: rgb(7, 48, 58);
+      /* Adjust the color and opacity of the filled portion as needed */
+      transition: width 0.3s ease-in;
+}
+
+
+.progress-text {
+      position: absolute;
+      bottom: -20px;
+      /* Adjust the positioning of the text as needed */
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 14px;
+      /* Adjust the font size as needed */
+      color: #000;
+      /* Adjust the text color as needed */
+}
+
+
+
+
+/* ------------------------------------------floating animation css---------------------------------------- */
+
+.bgcontainer {
+
+      /* height: 200px; Adjust the height as needed */
+      background-color: transparent;
+      /* Set the background color of the water */
+      /* overflow: hidden; */
+}
+
+.boat {
+
+      /* bottom: -100px; 
+      left: 50%; */
+      transform: translateX(0);
+      /* width: 100px; 
+      height: 100px; 
+      
+      background-size: cover; */
+      animation: boatMove 4s linear infinite;
+}
+
+@keyframes boatMove {
+      0% {
+            transform: translateY(0);
+      }
+
+      50% {
+            transform: translateY(20px);
+            /* Adjust the vertical movement */
+      }
+
+      100% {
+            transform: translateY(0);
+      }
+}

@@ -1,0 +1,596 @@
+.wrapper {
+      position: absolute;
+      width: 100vw;
+      height: fit-content;
+      overflow: hidden;
+
+
+
+      background: linear-gradient(90deg, rgb(4, 123, 20), 5%, rgb(32, 60, 32), 20%, rgb(26, 52, 19), 30%, rgb(10, 50, 23), 95%, rgb(46, 136, 2));
+      /* background-color: rgb(54, 112, 7); */
+      z-index: -10;
+}
+
+.box {
+      z-index: -6;
+}
+
+.box div {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: transparent;
+      border: 6px solid rgb(69, 131, 71);
+
+}
+
+.box div:nth-child(1) {
+
+      top: 10%;
+      left: 90vw;
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(2) {
+      top: 12%;
+      left: 40vw;
+
+      animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(3) {
+      top: 14%;
+      left: 30vw;
+      animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(4) {
+      top: 16%;
+      left: 20vw;
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(5) {
+      top: 18%;
+      left: 80vw;
+
+      animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(6) {
+      top: 20%;
+      left: 60vw;
+      animation: animate 4s linear infinite;
+}
+
+.box div:nth-child(7) {
+      top: 22%;
+      left: 10vw;
+
+
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(8) {
+      top: 24%;
+      left: 50vw;
+      animation: animate 11s linear infinite;
+}
+
+.box div:nth-child(9) {
+      top: 26%;
+      left: 70vw;
+      animation: animate 11s linear infinite;
+}
+
+.box div:nth-child(10) {
+      top: 28%;
+      left: 65vw;
+      animation: animate 11s linear infinite;
+}
+
+
+.box div:nth-child(61) {
+
+      top: 2%;
+      left: 90vw;
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(62) {
+      top: 4%;
+      left: 40vw;
+
+      animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(63) {
+      top: 6%;
+      left: 30vw;
+      animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(64) {
+      top: 8%;
+      left: 20vw;
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(65) {
+      top: 9%;
+      left: 80vw;
+
+      animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(66) {
+      top: 10%;
+      left: 60vw;
+      animation: animate 4s linear infinite;
+}
+
+.box div:nth-child(67) {
+      top: 11%;
+      left: 10vw;
+
+
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(68) {
+      top: 12%;
+      left: 50vw;
+      animation: animate 11s linear infinite;
+}
+
+.box div:nth-child(69) {
+      top: 13%;
+      left: 70vw;
+      animation: animate 11s linear infinite;
+}
+
+.box div:nth-child(70) {
+      top: 14%;
+      left: 65vw;
+      animation: animate 11s linear infinite;
+}
+
+
+
+
+.box div:nth-child(51) {
+
+      top: 4%;
+      left: 68vw;
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(52) {
+      top: 6%;
+      left: 70vw;
+
+      animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(53) {
+      top: 8%;
+      left: 72vw;
+      animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(54) {
+      top: 11%;
+      left: 74vw;
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(55) {
+      top: 32%;
+      left: 76vw;
+
+      animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(56) {
+      top: 15%;
+      left: 78vw;
+      animation: animate 4s linear infinite;
+}
+
+.box div:nth-child(57) {
+      top: 17%;
+      left: 80vw;
+
+
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(58) {
+      top: 19%;
+      left: 82vw;
+      animation: animate 11s linear infinite;
+}
+
+.box div:nth-child(59) {
+      top: 21%;
+      left: 84vw;
+      animation: animate 11s linear infinite;
+}
+
+.box div:nth-child(60) {
+      top: 23%;
+      left: 86vw;
+      animation: animate 11s linear infinite;
+}
+
+
+
+
+
+.box div:nth-child(11) {
+
+      top: 30%;
+      left: 90vw;
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(12) {
+      top: 32%;
+      left: 40vw;
+
+      animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(13) {
+      top: 34%;
+      left: 30vw;
+      animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(14) {
+      top: 36%;
+      left: 20vw;
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(15) {
+      top: 38%;
+      left: 80vw;
+
+      animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(16) {
+      top: 40%;
+      left: 60vw;
+      animation: animate 4s linear infinite;
+}
+
+.box div:nth-child(17) {
+      top: 42%;
+      left: 10vw;
+
+
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(18) {
+      top: 44%;
+      left: 50vw;
+      animation: animate 11s linear infinite;
+}
+
+.box div:nth-child(19) {
+      top: 46%;
+      left: 70vw;
+      animation: animate 11s linear infinite;
+}
+
+.box div:nth-child(20) {
+      top: 48%;
+      left: 10vw;
+      animation: animate 11s linear infinite;
+}
+
+
+
+
+
+
+.box div:nth-child(21) {
+
+      top: 50%;
+      left: 90vw;
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(22) {
+      top: 52%;
+      left: 40vw;
+
+      animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(23) {
+      top: 54%;
+      left: 30vw;
+      animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(24) {
+      top: 56%;
+      left: 20vw;
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(25) {
+      top: 58%;
+      left: 80vw;
+
+      animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(26) {
+      top: 60%;
+      left: 60vw;
+      animation: animate 4s linear infinite;
+}
+
+.box div:nth-child(27) {
+      top: 62%;
+      left: 10vw;
+
+
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(28) {
+      top: 64%;
+      left: 50vw;
+      animation: animate 11s linear infinite;
+}
+
+.box div:nth-child(29) {
+      top: 66%;
+      left: 70vw;
+      animation: animate 11s linear infinite;
+}
+
+.box div:nth-child(30) {
+      top: 68%;
+      left: 10vw;
+      animation: animate 11s linear infinite;
+}
+
+
+
+
+
+
+
+.box div:nth-child(31) {
+
+      top: 70%;
+      left: 90vw;
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(32) {
+      top: 72%;
+      left: 40vw;
+
+      animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(33) {
+      top: 74%;
+      left: 30vw;
+      animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(34) {
+      top: 76%;
+      left: 20vw;
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(35) {
+      top: 78%;
+      left: 80vw;
+
+      animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(36) {
+      top: 70%;
+      left: 60vw;
+      animation: animate 4s linear infinite;
+}
+
+.box div:nth-child(37) {
+      top: 72%;
+      left: 10vw;
+
+
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(38) {
+      top: 74%;
+      left: 50vw;
+      animation: animate 11s linear infinite;
+}
+
+.box div:nth-child(39) {
+      top: 76%;
+      left: 70vw;
+      animation: animate 11s linear infinite;
+}
+
+.box div:nth-child(40) {
+      top: 78%;
+      left: 10vw;
+      animation: animate 11s linear infinite;
+}
+
+
+
+
+.box div:nth-child(41) {
+
+      top: 80%;
+      left: 90vw;
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(42) {
+      top: 82%;
+      left: 40vw;
+
+      animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(43) {
+      top: 84%;
+      left: 30vw;
+      animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(44) {
+      top: 86%;
+      left: 20vw;
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(45) {
+      top: 88%;
+      left: 80vw;
+
+      animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(46) {
+      top: 90%;
+      left: 60vw;
+      animation: animate 4s linear infinite;
+}
+
+.box div:nth-child(47) {
+      top: 92%;
+      left: 10vw;
+
+
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(48) {
+      top: 94%;
+      left: 50vw;
+      animation: animate 11s linear infinite;
+}
+
+.box div:nth-child(49) {
+      top: 96%;
+      left: 70vw;
+      animation: animate 11s linear infinite;
+}
+
+.box div:nth-child(50) {
+      top: 98%;
+      left: 10vw;
+      animation: animate 11s linear infinite;
+}
+
+
+
+/* 
+.box div:nth-child(51) {
+
+      top: 10%w;
+      left: 90vw;
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(52) {
+      top: 102hw;
+      left: 40vw;
+
+      animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(53) {
+      top: 104hw;
+      left: 30vw;
+      animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(54) {
+      top: 106hw;
+      left: 20vw;
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(55) {
+      top: 108hw;
+      left: 80vw;
+
+      animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(56) {
+      top: 110hw;
+      left: 60vw;
+      animation: animate 4s linear infinite;
+}
+
+.box div:nth-child(57) {
+      top: 112hw;
+      left: 10vw;
+
+
+      animation: animate 8s linear infinite;
+}
+
+.box div:nth-child(58) {
+      top: 114hw;
+      left: 50vw;
+      animation: animate 11s linear infinite;
+}
+
+.box div:nth-child(59) {
+      top: 116hw;
+      left: 70vw;
+      animation: animate 11s linear infinite;
+}
+
+.box div:nth-child(60) {
+      top: 118hh;
+      left: 10vw;
+     
+      animation: animate 11s linear infinite;
+} */
+
+
+
+
+
+
+
+
+
+
+
+@keyframes animate {
+      0% {
+            transform: scale(0) translateY(0)   rotate(0);
+            opacity: 1;
+      }
+
+      100% {
+            transform: scale(1.3)   translateY(-100px) rotate(360deg);
+            opacity: 0;
+      }
+}
+
+

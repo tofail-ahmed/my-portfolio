@@ -1,0 +1,90 @@
+.image-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.5);
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+
+
+
+  .image-container {
+    width: 60%;
+  }
+}
+
+@keyframes cursor {
+  50% {
+    background-color: transparent;
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  100% {
+    width: 100%;
+  }
+}
+
+.animate .texthome {
+  animation: typing 10s steps(70) forwards, cursor 0.4s step-end infinite alternate;
+}
+
+
+
+
+
+/* icon hover */
+
+
+
+
+.existing-div {
+position: relative;
+ 
+}
+
+.existing-div.hovered {
+ 
+}
+
+.animated-div {
+  /* position: absolute;
+  top: 100px;
+  left: 0; */
+  width: 200px;
+  height: 200px;
+  background-color: #ff00ff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  animation: appear 1s ease-in-out forwards;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

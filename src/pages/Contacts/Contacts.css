@@ -1,0 +1,39 @@
+.section-name {
+
+      font-size: xx-large;
+      font-weight: 600;
+      color: rgba(10, 80, 7, 0.731);
+      font-family: sans-serif;
+
+
+}
+
+.glow-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+}
+
+.glow-text {
+      font-size: 48px;
+      text-align: center;
+      color: #55af06;
+      text-shadow: 0 0 10px rgba(81, 226, 8, 0.8);
+      /* Add a subtle white glow */
+      animation: glow-animation 2s ease-in-out infinite;
+}
+
+/* @keyframes glow-animation {
+      0% {
+            text-shadow: 0 0 10px rgba(141, 246, 3, 0.8);
+      }
+
+      50% {
+            text-shadow: 0 0 20px rgba(209, 250, 4, 0.9);
+      }
+
+      100% {
+            text-shadow: 0 0 10px rgba(29, 251, 5, 0.8);
+      }
+} */
