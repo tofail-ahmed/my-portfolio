@@ -5,13 +5,13 @@ const About = () => {
   return (
     <div id='about'>
 
-      <div className='text boat text-green-400 mx-24 my-24 text-justify'>
+      <div className='text boat text-green-400 mx-auto my-24 text-justify'>
         <div className='boatabout my-4'>
-          Hi there! I am John Doe, a passionate and aspiring web developer. I love turning ideas into beautiful and functional websites that provide great user experiences
+          Hi there! I am Tofail Ahmed Sayem, a passionate and aspiring web developer. I love turning ideas into beautiful and functional websites that provide great user experiences
 
         </div>
         <div className='boatabout my-4'>
-          I recently graduated with a Bachelor's degree in Computer Science, where I gained a solid foundation in web development principles and techniques. During my studies, I completed several projects that enhanced my skills in front-end and back-end development
+          I recently graduated with a Bachelor's degree in Science, where I gained a solid foundation in web development principles and techniques. During my studies, I completed several projects that enhanced my skills in front-end and back-end development
         </div>
         <div className='boatabout my-4'>  I am proficient in HTML, CSS, and JavaScript, and I have hands-on experience with popular frameworks like React and Node.js. Im constantly exploring new technologies and staying up-to-date with the latest industry trends to improve my skills</div>
         <div>

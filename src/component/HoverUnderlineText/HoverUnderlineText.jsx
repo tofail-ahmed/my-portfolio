@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 
-const HoverUnderlineText = ({ text }) => {
+const HoverUnderlineText = ( {text} ) => {
       const [isHovered, setIsHovered] = useState(false);
       const [underlineWidth, setUnderlineWidth] = useState(0);
 
